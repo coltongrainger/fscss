@@ -1,0 +1,80 @@
+Benn is paid $150 yearly by FSCSS.
+
+FSCSS.org is the design from the old director (it's php). As far as hosting anywhere else.
+
+creating a new subdirectory
+
+how the client's use a tool
+
+we may be rolling out a new design
+
+not quite a content management system
+
+
+I need
+
+When I create a DNS record in godaddy, I can create a 
+
+if I'm hosting on godaddy, I would just 
+
+DNS 
+
+plenty of VPS servers getting setup, will have 
+
+503c non-profit
+
+reach out to the sales department
+discounts or sponsorships
+access to a professional toolset
+
+once I decide where I want to host it
+need to make sure it's secure
+
+threshold catch in place
+not getting billed for something not inside of my control 
+
+
+this was Shelley's website
+no we are trying to review
+
+guidance for technical questions
+
+log-in creditials for the go-daddy DNS registration
+
+automated DNS
+
+working with Linux servers?
+
+## SSL certificates
+
+*must have the DNS information set up correctly* 
+
+I cannot generate the certificate. 
+
+1. Get the server
+
+a. get the certificate
+
+most of the VPS come with lets encrypt preinstall
+do a mini-baby penetration Get the server up and running, make sure I can access pages.
+
+No scripts on the server until the https:// routing
+
+2. Let's encrypt 
+
+## Action Steps
+
+Hey Colton!
+
+It was great speaking with you today. For right now, go ahead and e-mail any changes you'd like for the DNS records. What I would need are the following:
+The Thing you want (ie volunteers.fscss.org)
+The Type (ie A, AAAA, CNAME, PTR, NS)
+The Data - which will depend on the type. (IP Address, sub directory, etc.)
+A few follow-ups:
+Here is the Let's Encrypt documentation if you spin up your own server:
+https://letsencrypt.org/docs/ 
+Try to get your SSL cert done at the beginning of your server set-up...it will save you time in the long run.
+Create a cron (or whatever you use) job to renew the certificate periodically so that it doesn't expire.
+Call me/e-mail me if you need anything.
+
+Thanks!

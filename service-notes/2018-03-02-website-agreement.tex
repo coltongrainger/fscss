@@ -1,0 +1,47 @@
+\documentclass{letter}
+\newcommand{\namesigdate}[2][5cm]{%
+\begin{minipage}{#1}
+    #2 \vspace{1.0cm}\hrule\smallskip
+    \small \textit{Signature}
+    \vspace{1.0cm}\hrule\smallskip
+    \small \textit{Date}
+    \vspace{1.0cm}\hrule\smallskip
+    \small \textit{Address}
+\end{minipage}
+}
+
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Schola}
+
+\usepackage[super]{nth}
+
+\title{website agreement}
+\begin{document}
+\begin{letter}{}
+
+\opening{SUBJECT: Release of Liability \& Receipt of payment for damages}
+
+On {\AdvanceDate[-1]\today}, I, \releasor, accept payment in the amount of 
+\begin{itemize}
+\item $\$140.00$ 
+\end{itemize}
+for
+\begin{itemize}
+\item damages to my person (wounds),
+\item damages to my property (clothing),
+\end{itemize}
+
+sustained by an dog bite accident that occurred on {\AdvanceDate[-1]\today} at 9:00pm involving a dog owned by \releasee. 
+
+I understand that, as I talked with \releasee\ and expressed my claim for compensation due to damages, any statutory provisions (city of Olympia laws, etc) that would otherwise apply to limit this general release are hereby waived.
+
+By signing below, I confirm that I, \releasor, release \releasee\ from all liability for claims, known and unknown, arising from the accident.
+
+\vspace{24pt}
+\noindent \namesigdate{\releasor} \hfill \namesigdate{\releasee}
+
+\end{letter}
+\end{document}
+
+
+

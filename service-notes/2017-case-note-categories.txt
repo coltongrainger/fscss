@@ -1,0 +1,42 @@
+Program
+	case note type
+
+Homeless Family Services
+	Coordinated Entry
+	Shelter
+	Basic needs
+	Housing search & placement
+	crisis intervention
+	
+Family Resource Navigation
+	Childcare
+	Community Based DV advocacy
+	Clothing
+	mental health referral
+	medical referral
+	eviction prevention
+	Food
+	Holiday assistance
+	Housing search & placement support 
+	translation
+	access to technology
+	substance abuse
+	transportation
+
+Family Justice Center
+	Advocacy / Court Accompaniment
+	Legal assistance (from attorney)
+	DV shelter
+	Elder abuse
+	file police report
+	fleeing DV
+	human trafficking advocacy
+	protection order
+	safety planning
+	sexual assualt advocacy
+	stalking
+
+Parent & Child Education
+	support group
+	parenting support
+	counseling
